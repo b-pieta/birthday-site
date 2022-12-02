@@ -1,0 +1,70 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    color: white;
+    background-color: #a2d2ff;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(111, 195, 255),rgb(255, 138, 224), rgb(255, 143, 102))
+}
+
+h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+}
+
+#mehdi{
+    border-radius: 50%;
+    height: 200px;
+    border: 8px solid pink;
+}
+
+#bd-age{
+    background: #EFB0C9;
+    padding: 6px 8px;
+    border-radius: 5px;
+    margin: 15px 0 10px 0;
+}
+
+#bd-date{
+    margin-top:2px;
+    background: #EFB0C9;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.gift{
+    margin-top: 50px;
+} 
+
+.gift-img {
+    margin: 0 auto;
+    height: 500px;
+    width: 430px;
+    background-image: url("gift.png");
+    background-size: cover;
+    
+}
+
+#gift-img-happy:hover {
+    background-image: url("joy.gif");
+
+    
+}
+
+#gift-img-react:hover {
+    background-image: url("hot.gif");
+}
+
+
+#gift-img-word:hover {
+    background-image: url("awesome.gif");
+}
+
